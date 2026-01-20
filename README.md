@@ -13,12 +13,19 @@ Voice2Docs is a voice-to-documentation tool that allows you to create and update
 
 ## Installation
 
-1. Clone this repository onto your local machine. Take note of where the latest release is in this repository.
-1. Open any project in Visual Studio Code or Cursor
-2. Navigate to the extensions pane and click the 3 dots in the upper right corner (...)
-3. Select the .vsix file in this repository.
+Download the .vsix file onto your machine
 
-Note: This can be installed into Cursor as well.
+To install with the CLI:
+
+`code --install-extension path/to/extension.vsix`
+
+To install with the UI:
+
+2. Open any project in Visual Studio Code
+3. Navigate to the extensions pane and click the 3 dots in the upper right corner (...)
+4. Select the .vsix file you downloaded earlier
+
+Note: This same installation process can be done with Cursor.
 
 ## Initial Setup
 
@@ -98,8 +105,8 @@ When you stop and process a recording, the following happens automatically:
 - Monthly limits can be increased upon request
 
 ### Technical Limitations
-- The application is not context-aware - it doesn't know other documentation and codebase. This is planned for future iterations.
-- The application supports markdown files only currently. Future iterations may support other file types.
+- The application is not context-aware - it doesn't know other documentation and codebase.
+- Supports markdown files only.
 
 ## Getting Help
 
