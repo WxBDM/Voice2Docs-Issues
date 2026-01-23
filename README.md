@@ -31,6 +31,11 @@ To install with the UI:
 
 <img src="images/install_from_vsix.png" alt="Extension Panel" height = 200>
 
+You should now see a microphone in your panel:
+
+<img src="images/vs-extension.png" alt="Extension Panel" height = 200>
+
+
 Note: A similar installation process can be followed with Cursor.
 
 ## Initial Setup
